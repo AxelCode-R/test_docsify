@@ -1,155 +1,174 @@
-# DocsifyJS Template 📒 🕸
-> Starter template for a Markdown-based docs site
+# Start with the Basics
+Learn about the syntax and basic data types in Python such as variables, strings, numbers, and lists. Familiarize yourself with basic  operations and functions.
 
-[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/docsify-js-template)](https://github.com/MichaelCurrin/docsify-js-template/tags/?include_prereleases&sort=semver)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+## Introduction to Python 
+Learn about the history and use cases of Python. Discuss its popularity and why it's a great language to learn for beginners
 
-[![Made with latest Docsify](https://img.shields.io/badge/docsify-v4-blue?label=docsify)](https://docsify.js.org/ "Go to Docsify website")
-[![Hosted with GH Pages](https://img.shields.io/badge/Hosted_with-GitHub_Pages-blue?logo=github&logoColor=white)](https://pages.github.com/ "Go to GitHub Pages docs")
+### Introduction
 
+Python is an incredibly popular and versatile programming language, created in 1991 and used by developers all over the world. It is an easy-to-learn language with a simple, flexible and readable syntax \[1\]. This makes python a great choice for developers of all levels, from beginners to experienced developers. Python is often used for web development, data analysis, artificial intelligence, and more. It allows developers to tackle a range of challenges. Additionally, Python's open source nature has resulted in an active community of developers and users who are finding new ways to use the language every day. Data scientists, in particular, are often attracted to Python due to its powerful capabilities in the fields of data science and machine learning. Furthermore, Python is a powerful language that can be used for a variety of tasks.
 
-## Preview
+### Popularity and Why it's a Great Language to Learn for Beginners
 
-<div align="center">
-    <a href="https://michaelcurrin.github.io/docsify-js-template/">
-        <img src="/sample.png" alt="Sample screenshot" alt="Go to website" width="500" />
-    </a>
-</div>
+Python is a great language for beginners to learn due to its ease of use and its active and supportive community. The open source nature of Python means that anyone can contribute to the language and make it better.
 
-<br>
+No matter what your skill level is, Python is a great language to learn due to its wide range of features and capabilities. With its simple syntax, powerful libraries, readability, scalability, and open source nature, it is no wonder why Python is so popular today.
 
-<div align="center">
+### Quiz
 
-[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-blue?style=for-the-badge)](https://michaelcurrin.github.io/docsify-js-template/ "Go to website")
+1. What are the key features of Python that make it a great language to learn for beginners?
 
-Instead of forking, rather make a new repo using this template button:
+   The key features are its easy-to-learn syntax, readability, scalability, and open source nature.
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/docsify-js-template/generate)
+2. What type of tasks can Python be used for?
 
-</div>
+   Python can be used for a wide variety of tasks, such as web development, data analysis, artificial intelligence, and more.
 
-If you want to improve the original template, then fork it and make a PR.
+3. What is the history of Python?
 
+   Python was created in 1991 by Guido van Rossum and has since become the language of choice for many due to its easy-to-learn syntax, readability, and flexibility.
 
-## Features
+4. What makes Python attractive to data scientists?
 
-- 🏭 Template for a SPA modern docs site.
-- 📗 Use your awesome project's _existing_ markdown files.
-- 🤩 Light on code – just add a single HTML file and optionally add cover page and navbar config.
-- 🚀 Easy to host as a static site on GitHub Pages. No build step needed.
+   Python is attractive to data scientists due to its powerful capabilities in the fields of data science and machine learning.
+
+5. What is the open source nature of Python?
+
+   The open source nature of Python means that anyone can contribute to the language and make it better, resulting in an active community of developers and users who are finding new ways to use the language every day.
 
 
-## Purpose
-> How to use this project
+## Setting Up Your Python Environment
 
-- Create a **new repo** from the template and host it on GitHub Pages immediately. This is good for trying out Docsify or building a site project from scratch.
-- Use this project as a **base** - follow instructions to download just the necessary files to your _existing_ repo's `docs` directory
-- View the **live** demo site to see what you'll get.
+It is easy to get started with Python, and this chapter will cover how to install Python on your computer, as well as how to use IDEs (Integrated Development Environments) to make programming more efficient and easier to debug.
 
-For more info on Docsify, see my [DocsifyJS Tutorial][]. That covers intro to DocsifyJS, including installation, running and configuration. If you look at the repo, that has has more content and configuration than this relatively plain template site.
+### Installing Python
 
-[DocsifyJS Tutorial]: https://michaelcurrin.github.io/docsify-js-tutorial/#/
+Installing Python on your computer is a straightforward process. You can download the official Python installer [here](https://www.python.org/downloads/). Once you have it, simply double-click it to start the installation process. The installer will guide you through the steps to install Python on your computer.
 
+### Using IDEs
 
-## How to use Docsify in your projects
+Once you have Python installed, you may find that using an IDE (Integrated Development Environment) can be incredibly useful. IDEs are designed to make programming more efficient, and they can also help you quickly identify and fix errors in your code. Popular Python IDEs include PyCharm, Visual Studio Code, and Spyder. Each one has its own strengths and weaknesses, so you may want to try out a few of them to see which one works best for you.  Additionaly there is Google Colab and Jupyter Notebooks. Both Google Colab and Jupyter Notebooks provide a flexible and interactive environment for writing and running code in a web browser.
 
-### Copy files
+When using an IDE, you will be able to write and modify your code in the same place. This can be incredibly helpful if you need to make changes to your code. Additionally, many IDEs come with useful features, such as code autocompletion and intelligent code suggestions, which can make programming in Python much easier and more efficient.
 
-Use one of the approaches below to setup Docsify in your own project.
+Of course, you don't have to use an IDE. You can also use other tools, such as text editors, to write and debug your code. Ultimately, it is up to you to decide which tool works best for you and your project.
 
-#### A. Use this template
+In conclusion, installing and setting up Python on your computer is a relatively simple process. Once you have it installed, you can use an IDE to make programming easier and more efficient. Alternatively, you can use other tools to write and debug your code.
 
-Create a _new_ forked project based on this template  by clicking the button below. You'll get a fork in your own repo.
+### Environments
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f)](https://github.com/MichaelCurrin/docsify-js-template/generate)
+Python environments are a way of isolating Python packages and dependencies, allowing developers to manage multiple versions of Python and libraries on the same system. Environments are useful for maintaining consistency and reproducibility across different projects, and for ensuring that changes to one project do not affect other projects that may require different versions of the same libraries.
 
-You could start adding code outside of the _docs_ directory, however this project is intended as a standalone docs site which can be configured for experimentation and used as reference.
+There are several tools for creating and managing Python environments, including virtualenv, pipenv, conda, and venv (built into Python 3.3+). In this tutorial, we will focus on using conda to create and manage environments.
 
-#### B. Add Docsify to an existing project's docs directory
+#### Installing and using conda with command prompt
 
-This will copy the contents of the docs directory from Github to the current folder - ideal if there is an existing project and you want to add to _Docsify_ it.
+1. Download and install Anaconda distribution from **https://www.anaconda.com/products/individual**
+2. Open the command prompt (Windows) or terminal (Mac/Linux).
+3. Create a new environment using the following command: **`conda create --name myenv`**
+4. Activate the new environment using the following command: **`conda activate myenv`**
+5. Install packages using the **`conda install`** command, e.g. **`conda install numpy`**.
+6. Deactivate the environment using the following command: **`conda deactivate`**
+7. To delete the environment, use the following command: **`conda remove --name myenv --all`**
 
-1. Ensure you have `curl` command installed. Or use `wget`.
-2. Navigate to your project's `docs` folder.
-    ```sh
-    cd my-project/docs
-    ```
-3. Download necessary files in the template [docs](/docs) directory to your project using this two-line command. (The `-O` flag will save the files locally, keeping the original filenames.)
-    ```sh
-    REPO_DOCS='https://raw.githubusercontent.com/MichaelCurrin/docsify-js-template/master/docs/'
-    curl $REPO_DOCS\{_coverpage.md,_sidebar.md,.nojekyll,index.html,README.md\} -O
-    ```
+#### Installing and using conda with Anaconda Navigator
 
-### Customize
+1. Download and install Anaconda distribution from **https://www.anaconda.com/products/individual**
+2. Open Anaconda Navigator.
+3. Click on the "Environments" tab and click on "Create" to create a new environment.
+4. Select a Python version and give the environment a name.
+5. Select packages to install using the "Not Installed" dropdown menu.
+6. Click "Apply" to install the selected packages.
+7. Click "Play" to launch Jupyter Notebook or another IDE to work within your new environment.
 
-You can use your IDE to do find and replace across files.
+Using conda allows you to create multiple isolated Python environments on your computer, each with its own version of Python and packages. This can help to ensure that you have the necessary packages for each project you are working on without affecting other projects.
 
-Use the convenient [replace.sh](/replace.sh) script in this repo to replace the template's values with your own.
+# Python Syntax: Learn about the basic syntax of Python, including indentation, comments, and basic control structures such as if-else statements and loops
 
+# Python Syntax Tutorial
 
-1. Find the script.
-    - If you used the template button, you've already got it.
-    - If adding content to your existing project's docs, copy script to your project **root** (not docs directory)
-        ```sh
-        curl 'https://raw.githubusercontent.com/MichaelCurrin/docsify-js-template/master/replace.sh' -O
-        chmod +x ./replace.sh
-        ```
-2. Modify the `MY_` values then run this script to replace the template's value with your own.
-3. Run the script from the **project root** against yours docs directory.
-   ```sh
-   ./replace.sh
-   ```
-4. The script can be deleted after you use it.
+Python is a popular programming language that is relatively easy to learn and use. It is a great choice for beginners, as the syntax is relatively straightforward and intuitive. In this tutorial, you will learn about the basic syntax of Python, including indentation, comments, and basic control structures such as if-else statements and loops.
 
-Now complete any remaining TODO items in the files.
+## Indentation
 
-### Use template readme
+Python relies on indentation to mark the start and end of code blocks, such as when defining functions, loops, and conditionals. All code blocks must have the same indentation level, usually 4 spaces. For example:
 
-If you clicked _Use this template_, followed the customize steps above, then the last thing to do is replace the project's README.md file with the template one.
-
-```sh
-mv README.template.md README.md
+```python
+if x > 10:
+    print("x is greater than 10")
+    x -= 1
+else:
+    print("x is less than 10")
+    x += 1
 ```
 
-Then customize README.md as your own project.
+## Comments
 
+Comments are used to add notes and documentation to your code. In Python, comments are denoted by the pound sign (#). For example:
 
-## Set up and run
+```python
+# This is a comment
+x = 10 # This is also a comment
+```
 
-### Remote use
+## If-Else Statements
 
-Whatever approach you use to set up a `docs` directory, you can use your own project or a forked template and serve your site on platform like  GiHhub Pages or Netlify.
+If-else statements are used to check if a certain condition is true, and if not, perform an action. For example:
 
-This template still works fine as a standalone online demo of _Docsify_ that you can tweak. In a real project, you'd add your code at the repo root, outside of `docs`. Or you could move your docs site to the repo root on the `gh-pages` branch for GH Pages.
+```python
+if x > 10:
+    print("x is greater than 10")
+else:
+    print("x is less than 10")
+```
 
-### Serve locally
+## Loops
 
-Follow this [gist](https://gist.github.com/MichaelCurrin/4c8060dcc9d8841f842eeebc7a1436d8) so you can view the docs site on a local webserver.
+Loops are used to execute a set of code multiple times. In Python, the most common loop is the **for** loop. Here is an example of a for loop:
 
-Go to my [DocsifyJS Tutorial - Serve locally](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=serve-a-docsify-site-locally) for more info on what DocsifyJS is and how to use it.
+```python
+for i in range(10):
+    print(i)
+```
 
+This loop will print the numbers 0 through 9.
 
-## Related projects
+Another loop is the **while** loop. Here is an example of a while loop:
 
-A template using Docsify Themeable. It is a Docsify site but easier to use, it is prettier (in my opinion), and supports a theme system that is more advanced than that in Docsify.
+```python
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1
+```
 
-- [![MichaelCurrin - docsify-themeable-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=docsify-themeable-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/docsify-themeable-quickstart)
+This loop will print the numbers 0 through 9.
 
-A template for Vue-based docs site. Except it uses VuePress to render a static site (better for SEO) rather than as a Single-Page Application like Docsify.
- 
-- [![MichaelCurrin - vuepress-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vuepress-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vuepress-quickstart)
+## Conclusion
 
-A template for a Vue-based app.
+In this tutorial, you learned about the basic syntax of Python, including indentation, comments, and basic control structures such as if-else statements and loops. You can now use these concepts to write your own Python programs.
 
-- [![MichaelCurrin - vue-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-quickstart)
+# Questions
 
+Here are five exam questions with solutions:
 
-## License
+1. What is the purpose of indentation in Python?
+**Solution:** Indentation is used to mark the start and end of code blocks, such as when defining functions, loops, and conditionals.
+2. How are comments denoted in Python?
+**Solution:** Comments are denoted by the pound sign (#).
+3. What is the difference between a for loop and a while loop?
+**Solution:** A for loop is used to execute a set of code a specific number of times, while a while loop is used to execute a set of code while a certain condition is true.
+4. What is the syntax for an if-else statement in Python?
+**Solution:** The syntax for an if-else statement is:
 
-Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
+```python
+if condition:
+    # code if condition is true
+else:
+    # code if condition is false
+```
 
-- You can modify and reuse this project.
-- Please link back to the original repo somewhere in your project if you use this in any way.
-- Including an original license copy.
-    - If you add content from [docs](/docs/) to your repo (or click _Use this template_) and then modify for your own needs so your copy is no longer a template, then you don't need to include a license.
-    - If you do fork this repo then use it as your own _template_, then this project's license and copyright notice must be **included** with the software. [source](https://choosealicense.com/licenses/#mit). Copy `LICENSE` to `LICENSE-source` and then update your copy of `LICENSE` with your own details.
+1. Write a for loop that prints the numbers 1 to 10.
+**Solution:**
+for i in range(1, 11):
+    print(i)
